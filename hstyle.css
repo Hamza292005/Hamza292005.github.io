@@ -20,17 +20,13 @@ html.lenis body {
 }
 
 body {
-  background: rgb(247, 0, 0);
-  background: linear-gradient(
-    57deg,
-    rgba(247, 0, 0, 1) 25%,
-    rgba(4, 112, 218, 1) 50%,
-    rgba(210, 255, 19, 0.9921218487394958) 79%
-  );
+    background: rgb(147,0,0);
+    background: linear-gradient(57deg, rgba(147,0,0,1) 16%, rgba(3,177,2,1) 51%, rgba(2,9,145,0.9921218487394958) 88%);
+  
   background-attachment: fixed;
   overflow-x: hidden;
 }
-#khead {
+#hhead {
   text-align: center;
   font-family: fantasy;
   font-size: 30px;
@@ -44,7 +40,7 @@ body {
   position: absolute;
   left: 200px;
 }
-#mapk {
+#maph {
   height: 300px;
   width: 450px;
   position: absolute;
@@ -75,7 +71,6 @@ left: 650px;}
   background-color: transparent;
   width: 300px;
   height: 200px;
-  border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -121,7 +116,6 @@ left: 650px;}
   background-color: transparent;
   width: 300px;
   height: 200px;
-  border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -166,11 +160,10 @@ left: 650px;}
   background-color: transparent;
   width: 300px;
   height: 200px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px; 
 }
 
-/* This container is needed to position the front and back side */
+
 .flip-card-inner3 {
   position: relative;
   width: 100%;
@@ -207,96 +200,8 @@ left: 650px;}
   color: white;
   transform: rotateY(180deg);
 }
-.flip-card4 {
-  background-color: transparent;
-  width: 300px;
-  height: 200px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
 
-/* This container is needed to position the front and back side */
-.flip-card-inner4 {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card4:hover .flip-card-inner4 {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flip-card-front4,
-.flip-card-back4 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front4 {
-  background-color: transparent;
-  color: black;
-}
-
-/* Style the back side */
-.flip-card-back4 {
-  background-color: rgb(219, 242, 15);
-  color: white;
-  transform: rotateY(180deg);
-}
-.flip-card5 {
-  background-color: transparent;
-  width: 300px;
-  height: 200px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
-
-/* This container is needed to position the front and back side */
-.flip-card-inner5 {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card5:hover .flip-card-inner5 {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flip-card-front5,
-.flip-card-back5 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front5 {
-  background-color: transparent;
-  color: black;
-}
-
-/* Style the back side */
-.flip-card-back5 {
-  background-color: rgb(200, 114, 2);
-  color: white;
-  transform: rotateY(180deg);
-}
 #cities {position: absolute;
   top: 1000px;
 height: 500px;
@@ -321,45 +226,45 @@ height: 40px;
 font-size: 30px;}
 
 #ltitle {position: absolute;
-top: 2200px;
+top: 3100px;
 left: 650px;}
 
 #location {position: absolute;
-top: 2400px;
+top: 3250px;
 }
-#moon {display: flex;
+#chimny {display: flex;
   justify-content: space-around;
   padding-left: 200px;
   padding-right: 200px;
   font-size: 25px;
 text-align: left;
 }
-#cgame{display: flex;
+#granite {display: flex;
   justify-content: space-around;
   padding-left: 200px;
   padding-right: 200px;
   padding-top: 25px;
   font-size: 25px;
 text-align:left;}
-#silco {display: flex;
+#battle {display: flex;
   justify-content: space-around;
   padding-left: 200px;
   padding-right: 200px;
   padding-top: 25px;
   font-size: 25px;
 text-align: left;}
-#indi {display: flex;
+#sky {display: flex;
   justify-content: space-around;
   padding-left: 200px;
   padding-top: 25px;
   padding-right: 200px;
   font-size: 25px;
 text-align: left;}
-#klink {height: 350px;
+#hlink {height: 350px;
   display: flex;
 justify-content: space-around;
 align-items:last baseline;
-padding-top: 3000px;
+padding-top: 3700px;
 }
 button {font-family: 'poke';
   height: 50px;
@@ -368,7 +273,7 @@ button {font-family: 'poke';
   display: inline-block;
   outline: 0;
   border: 0;
-  background-image: linear-gradient(to right,#eb3604,#055fd5,#e5ff00);
+  background-image: linear-gradient(to right,#c40202,#398400,#080d9f);
   cursor: pointer;
   border-radius: 2px;
   color: #fff;
