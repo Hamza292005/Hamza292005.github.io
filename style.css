@@ -1,0 +1,56 @@
+body { background-image: url(bkg.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+margin: 0;}
+@font-face {
+    font-family:'poke' ;
+    src: url(poke.ttf);
+}
+.logo{align-content: center;}
+.container {display: inline-block;}
+.intro {font-size: 20px;
+    font-weight: bold;
+font-family: 'poke';
+text-align: justify;
+position: absolute;
+top: 200px;
+width: 100%;
+white-space: nowrap;
+overflow: hidden;
+animation:
+       typing 15s ,
+       cursor .8s step-end infinite alternate;
+}
+@keyframes cursor {
+    50% {border-color: transparent; }
+}
+
+@keyframes typing {
+    from {width: 0%;}
+ to { width: 100%;}} 
+
+.options{height: 350px;
+    display: flex;
+justify-content: space-around;
+align-items:last baseline;
+}      
+button {font-family: 'poke';
+height: 50px;
+width: 300px;
+
+display: inline-block;
+outline: 0;
+border: 0;
+background-image: linear-gradient(to right,#1f8dd6,#a214c9);
+cursor: pointer;
+border-radius: 2px;
+color: #fff;
+font-weight: 500;
+text-align: center;
+text-transform: uppercase;
+height: 36px;
+line-height: 36px;
+padding: 0 10px;
+font-size: 14px;
+}
