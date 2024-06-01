@@ -49,18 +49,20 @@ body {
   width: 450px;
   position: absolute;
   left: 1000px;
-  top: 150px;}
+  top: 150px;
+}
 
-  #sth {position: absolute;
-top: 500px;
-left: 650px;}
-  h2 {
-    font-size: 50px;
-  
-    font-family: fantasy;
-    
-  }
-  
+#sth {
+  position: absolute;
+  top: 500px;
+  left: 650px;
+}
+h2 {
+  font-size: 50px;
+
+  font-family: fantasy;
+}
+
 #starters {
   position: absolute;
   top: 700px;
@@ -69,7 +71,6 @@ left: 650px;}
   display: flex;
   justify-content: space-evenly;
 }
-
 
 .flip-card {
   background-color: transparent;
@@ -297,78 +298,100 @@ left: 650px;}
   color: white;
   transform: rotateY(180deg);
 }
-#cities {position: absolute;
+#cities {
+  position: absolute;
   top: 1000px;
-height: 500px;
-width: 100%}
-  #set {position: absolute;
-    left: 650px;}
-#ctable{position: relative;
+  height: 500px;
+  width: 100%;
+}
+#set {
+  position: absolute;
+  left: 650px;
+}
+#ctable {
+  position: relative;
   top: 200px;
-width: 200%;
-border:black 1px solid;
-;}
-#tab {position: absolute;
-top: 1000px;
-padding-left: 300px;
-padding-right: 400px;
-width: 500px;
-font-size: 15px;
-height: 500px;
-border: 1px}
-thead {font-weight: bold;
-height: 40px;
-font-size: 30px;}
-
-#ltitle {position: absolute;
-top: 2200px;
-left: 650px;}
-
-#location {position: absolute;
-top: 2400px;
+  width: 200%;
+  border: black 1px solid;
 }
-#moon {display: flex;
-  justify-content: space-around;
-  padding-left: 200px;
-  padding-right: 200px;
-  font-size: 25px;
-text-align: left;
+#tab {
+  position: absolute;
+  top: 1000px;
+  padding-left: 300px;
+  padding-right: 400px;
+  width: 500px;
+  font-size: 15px;
+  color: khaki;
+  height: 500px;
+  border: 1px;
 }
-#cgame{display: flex;
-  justify-content: space-around;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-top: 25px;
-  font-size: 25px;
-text-align:left;}
-#silco {display: flex;
-  justify-content: space-around;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-top: 25px;
-  font-size: 25px;
-text-align: left;}
-#indi {display: flex;
-  justify-content: space-around;
-  padding-left: 200px;
-  padding-top: 25px;
-  padding-right: 200px;
-  font-size: 25px;
-text-align: left;}
-#klink {height: 350px;
+thead {
+  font-weight: bold;
+  height: 40px;
+  font-size: 30px;
+}
+
+#ltitle {
+  position: absolute;
+  top: 2200px;
+  left: 650px;
+}
+
+#location {
+  position: absolute;
+  top: 2400px;
+}
+#moon {
   display: flex;
-justify-content: space-around;
-align-items:last baseline;
-padding-top: 3000px;
+  justify-content: space-around;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 25px;
+  text-align: left;
 }
-button {font-family: 'poke';
+#cgame {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 25px;
+  font-size: 25px;
+  text-align: left;
+}
+#silco {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 25px;
+  font-size: 25px;
+  text-align: left;
+}
+#indi {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 200px;
+  padding-top: 25px;
+  padding-right: 200px;
+  font-size: 25px;
+  text-align: left;
+}
+#klink {
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: last baseline;
+  padding-top: 3000px;
+}
+button {
+  font-family: "poke";
   height: 50px;
   width: 300px;
-  
+
   display: inline-block;
   outline: 0;
   border: 0;
-  background-image: linear-gradient(to right,#eb3604,#055fd5,#e5ff00);
+  background-image: linear-gradient(to right, #eb3604, #055fd5, #e5ff00);
   cursor: pointer;
   border-radius: 2px;
   color: #fff;
@@ -378,4 +401,5 @@ button {font-family: 'poke';
   height: 36px;
   line-height: 36px;
   padding: 0 10px;
-  font-size: 14px; }
+  font-size: 14px;
+}
