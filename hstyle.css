@@ -20,9 +20,14 @@ html.lenis body {
 }
 
 body {
-    background: rgb(147,0,0);
-    background: linear-gradient(57deg, rgba(147,0,0,1) 16%, rgba(3,177,2,1) 51%, rgba(2,9,145,0.9921218487394958) 88%);
-  
+  background: rgb(147, 0, 0);
+  background: linear-gradient(
+    57deg,
+    rgba(147, 0, 0, 1) 16%,
+    rgba(3, 177, 2, 1) 51%,
+    rgba(2, 9, 145, 0.9921218487394958) 88%
+  );
+
   background-attachment: fixed;
   overflow-x: hidden;
 }
@@ -45,18 +50,20 @@ body {
   width: 450px;
   position: absolute;
   left: 1000px;
-  top: 150px;}
+  top: 150px;
+}
 
-  #sth {position: absolute;
-top: 500px;
-left: 650px;}
-  h2 {
-    font-size: 50px;
-  
-    font-family: fantasy;
-    
-  }
-  
+#sth {
+  position: absolute;
+  top: 500px;
+  left: 650px;
+}
+h2 {
+  font-size: 50px;
+
+  font-family: fantasy;
+}
+
 #starters {
   position: absolute;
   top: 700px;
@@ -65,7 +72,6 @@ left: 650px;}
   display: flex;
   justify-content: space-evenly;
 }
-
 
 .flip-card {
   background-color: transparent;
@@ -160,9 +166,8 @@ left: 650px;}
   background-color: transparent;
   width: 300px;
   height: 200px;
-  perspective: 1000px; 
+  perspective: 1000px;
 }
-
 
 .flip-card-inner3 {
   position: relative;
@@ -201,79 +206,99 @@ left: 650px;}
   transform: rotateY(180deg);
 }
 
-
-#cities {position: absolute;
+#cities {
+  position: absolute;
   top: 1000px;
-height: 500px;
-width: 100%}
-  #set {position: absolute;
-    left: 650px;}
-#ctable{position: relative;
+  height: 500px;
+  width: 100%;
+}
+#set {
+  position: absolute;
+  left: 650px;
+}
+#ctable {
+  position: relative;
   top: 200px;
-width: 200%;
-border:black 1px solid;
-;}
-#tab {position: absolute;
-top: 1000px;
-padding-left: 300px;
-padding-right: 400px;
-width: 500px;
-font-size: 15px;
-height: 500px;
-border: 1px}
-thead {font-weight: bold;
-height: 40px;
-font-size: 30px;}
-
-#ltitle {position: absolute;
-top: 3100px;
-left: 650px;}
-
-#location {position: absolute;
-top: 3250px;
+  width: 200%;
+  border: black 1px solid;
 }
-#chimny {display: flex;
-  justify-content: space-around;
-  padding-left: 200px;
-  padding-right: 200px;
-  font-size: 25px;
-text-align: left;
+#tab {
+  position: absolute;
+  top: 1000px;
+  padding-left: 300px;
+  padding-right: 400px;
+  width: 500px;
+  font-size: 15px;
+  height: 500px;
+  border: 1px;
 }
-#granite {display: flex;
-  justify-content: space-around;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-top: 25px;
-  font-size: 25px;
-text-align:left;}
-#battle {display: flex;
-  justify-content: space-around;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-top: 25px;
-  font-size: 25px;
-text-align: left;}
-#sky {display: flex;
-  justify-content: space-around;
-  padding-left: 200px;
-  padding-top: 25px;
-  padding-right: 200px;
-  font-size: 25px;
-text-align: left;}
-#hlink {height: 350px;
+thead {
+  font-weight: bold;
+  height: 40px;
+  font-size: 30px;
+}
+
+#ltitle {
+  position: absolute;
+  top: 3100px;
+  left: 650px;
+}
+
+#location {
+  position: absolute;
+  top: 3250px;
+}
+#chimny {
   display: flex;
-justify-content: space-around;
-align-items:last baseline;
-padding-top: 3700px;
+  justify-content: space-around;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 25px;
+  text-align: left;
 }
-button {font-family: 'poke';
+#granite {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 25px;
+  font-size: 25px;
+  text-align: left;
+}
+#battle {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 25px;
+  font-size: 25px;
+  text-align: left;
+}
+#sky {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 200px;
+  padding-top: 25px;
+  padding-right: 200px;
+  font-size: 25px;
+  text-align: left;
+}
+#hlink {
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: last baseline;
+  padding-top: 3700px;
+}
+button {
+  font-family: "poke";
   height: 50px;
   width: 300px;
-  
+
   display: inline-block;
   outline: 0;
   border: 0;
-  background-image: linear-gradient(to right,#c40202,#398400,#080d9f);
+  background-image: linear-gradient(to right, #c40202, #398400, #080d9f);
   cursor: pointer;
   border-radius: 2px;
   color: #fff;
@@ -283,4 +308,5 @@ button {font-family: 'poke';
   height: 36px;
   line-height: 36px;
   padding: 0 10px;
-  font-size: 14px; }
+  font-size: 14px;
+}
